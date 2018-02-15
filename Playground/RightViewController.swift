@@ -44,10 +44,10 @@ class RightViewController: UIViewController {
             
             captureSession?.startRunning()
             
-            setUpEmitterLayer()
-            setUpEmitterCell()
-            emitterLayer.emitterCells = [emitterCell]
-            previewView.layer.addSublayer(emitterLayer)
+//            setUpEmitterLayer()
+//            setUpEmitterCell()
+//            emitterLayer.emitterCells = [emitterCell]
+//            previewView.layer.addSublayer(emitterLayer)
         }catch{
             print(error)
             return
